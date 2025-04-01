@@ -1,0 +1,189 @@
+
+*{
+    margin: 0px;
+}
+#navbar{
+    height : 40px;
+    background-color:#031533; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border : solid
+}
+
+button{
+    background-color: rgb(240, 136, 4);
+    height: 30px;
+    text-align: center;
+    border: none
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    color: rgb(240, 136, 4);
+}
+p{
+    display: inline;
+    
+}
+main{
+    height: 690px;
+    display: grid;
+}
+.line1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+div{
+    margin-top: 5px;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    color: rgb(240, 136, 4);
+    background-color:#031533;
+    border-color: black;
+}
+input{
+    height: 30px;
+    width: 750px;
+    border: none;
+}
+.search{
+    height: 30px;
+    border: none;
+}
+.Electronics, #Electronics{
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: black;
+    background-image: url("../assets/Electronics.jpeg");
+}
+.Groceries, #Groceries{
+    height: 250px;
+    width: 250px;
+    color: black;
+    
+    background-image: url("../assets/groceries.jpeg");
+}
+.Stationary, #Stationary{
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: black;
+    background-image: url("../assets/Stationery.jpeg");
+}
+.Fashion, #Fashion{
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: black;
+    background-image: url("../assets/Fashion.jpeg");
+}
+.Books, #Books{
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: black;
+    background-image: url("../assets/Books.jpeg");
+}
+.Medicines, #Medicines{
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: black;
+    background-image: url("../assets/Medicines.jpeg");
+}
+.Vehicle_Accesories, #Vehicle_Accesories{
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: black;
+    background-image: url("../assets/Vehicle_accesories.jpeg");
+}
+.Home_Appliances, #Home_Appliances{
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: black;
+    background-image: url("../assets/Home_appliances.jpeg");
+}
+.Food, #Food{
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color : black;
+    background-image: url("../assets/Food.jpeg");
+}
+.Footwear, #Footwear{
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: black;
+    background-image: url("../assets/Foot_wear.jpeg");
+}
+.Books{
+    background-size: cover;
+}
+.Food{
+    background-size: cover;
+}
+.Footwear{
+    background-size: cover;
+}
+.Vehicle_Accesories{
+    background-size: cover;
+}
+.Medicines{
+    background-size: cover;
+}
+.Home_Appliances{
+    background-size: cover;
+}
+.Electronics{
+    background-size: cover;
+}
+.Groceries{
+    background-size: cover;
+}
+.Fashion{
+    background-size: cover;
+}
+@media screen and (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .line1 div {
+        flex: 1 1 calc(33.33% - 10px);
+    }
+
+    input[type="text"], select, button {
+        font-size: 12px;
+    }
+}
+
+/* Mobile Devices: 480px and smaller */
+@media screen and (max-width: 480px) {
+    .line1 div {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    input[type="text"], select, button {
+        font-size: 10px;
+    }
+
+    #navbar {
+        text-align: center;
+    }
+
+    #navbar a {
+        display: block;
+        margin: 5px 0;
+    }
+}
